@@ -1,5 +1,5 @@
 <?php
-//oiiii
+
 /**
  * Arquivo que faz a configuração incial da página.
  */
@@ -57,7 +57,7 @@ $artigos .= '</div>';
 /**
  * Variável que define o título desta página.
  */
-$title = "Os reis do Olympus";
+$title = "Quem tem fome tem pressa...";
 
 /**
  * Inclui o cabeçalho da página.
@@ -67,10 +67,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 ?>
 
 <section>
-
-<!--<div class="container">
-<h2>Deuses</h2>&nbsp;
-</div>-->
 
     <?php
 
@@ -83,8 +79,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <?php
+
+    // Obtém os artigos mais visitados para a variável $mv.
+    $mv = mostViewed();
+
+    // Se existem artigos mais visitados, exibe eles...
+    if ($mv) echo "<h3>Mais visitados</h3>{$mv}";
+    ?>
 
 </aside>
 

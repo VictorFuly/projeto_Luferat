@@ -465,3 +465,39 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
     }
 
 }
+
+
+.side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
+}
+
+/**
+ * Lista de redes sociais na barra lateral.
+ */
+.aside-social-box {
+    margin-top: 1rem;
+}
+
+.aside-social-box a {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.aside-social-box i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}

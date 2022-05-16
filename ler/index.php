@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 /**
  * Variável que define o título desta página.
  */
-$title = "Os reis do Olympus";
+$title = "Quem tem fome tem pressa...";
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
@@ -55,7 +55,7 @@ $artigo = $res->fetch_assoc();
 
 // Formata HTML para o navegador
 $html_article = <<<HTML
-<div id="backgroundArticle">
+
 <h2>{$artigo['art_title']}</h2>
 
 <div class="author-date">
@@ -63,7 +63,6 @@ $html_article = <<<HTML
 </div>
 
 <div>{$artigo['art_content']}</div>
-</div>
 
 HTML;
 
@@ -231,6 +230,11 @@ SQL;
     endif;
 
 endif;
+
+// Atualiza contador de visualizações do artigo
+$views = intval($artigo['art_views']) + 1;
+$sql = "UPDATE articles SET art_views = '{$views}' WHERE art_id = '{$artigo['art_id']}'";
+$conn->query($sql);
 
 /************************************************
  * Seus códigos PHP desta página terminam aqui! *

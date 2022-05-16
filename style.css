@@ -54,7 +54,7 @@ footer {
 body {
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
-    background-image: url('/img/olympuus.jpg');
+    background-image: url('/img/gray_background_01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,7 +368,8 @@ form input.password {
 
 /* Botão que mostra/oculta senha. */
 
-form button[id="passToggle"], form button[id="newPassToggle"] {
+form button[id="passToggle"],
+form button[id="newPassToggle"] {
     padding-left: .5rem;
     padding-right: .5rem;
     background: transparent;
@@ -462,4 +463,42 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
         flex: 0 0 200px;
     }
 
+}
+
+/**
+ * Artigos mais visitados na barra lateral.
+ */
+.side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
+}
+
+/**
+ * Lista de redes sociais na barra lateral.
+ */
+.aside-social-box {
+    margin-top: 1rem;
+}
+
+.aside-social-box a {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.aside-social-box i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
 }

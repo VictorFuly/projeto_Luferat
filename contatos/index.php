@@ -199,8 +199,67 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <h3>Mais contatos</h3>
+    
+    <h4>Victor</h4>
+
+    <div class="aside-social-box">
+
+        <a href="https://facebook.com/Luferat">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <span>Facebook</span>
+        </a>
+
+        <a href="https://youtube.com/Luferat">
+            <i class="fa-brands fa-youtube fa-fw"></i>
+            <span>Youtube</span>
+        </a>
+
+        <a href="https://github.com/Luferat">
+            <i class="fa-brands fa-github fa-fw"></i>
+            <span>GitHub</span>
+        </a>
+    </div>
+
+    <h4>Lucas</h4>
+
+    <div class="aside-social-box">
+
+        <a href="https://facebook.com/Luferat">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <span>Facebook</span>
+        </a>
+
+        <a href="https://youtube.com/Luferat">
+            <i class="fa-brands fa-youtube fa-fw"></i>
+            <span>Youtube</span>
+        </a>
+
+        <a href="https://github.com/Luferat">
+            <i class="fa-brands fa-github fa-fw"></i>
+            <span>GitHub</span>
+        </a>
+    </div>
+
+    <h4>Lincoln</h4>
+
+    <div class="aside-social-box">
+
+        <a href="https://facebook.com/Luferat">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <span>Facebook</span>
+        </a>
+
+        <a href="https://youtube.com/Luferat">
+            <i class="fa-brands fa-youtube fa-fw"></i>
+            <span>Youtube</span>
+        </a>
+
+        <a href="https://github.com/Luferat">
+            <i class="fa-brands fa-github fa-fw"></i>
+            <span>GitHub</span>
+        </a>
+    </div>
 
 </aside>
 

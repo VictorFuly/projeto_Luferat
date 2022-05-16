@@ -147,7 +147,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <p class="text-center" style="color:grey"><i class="fa-solid fa-user-plus fa-fw fa-4x"></i></p>
 
     <?php
-    // Se o cadastro foi finalizado com sucesso...
+    // Se o cadastyro foi finalizado com sucesso...
     if ($feedback) :
     ?>
 
@@ -223,6 +223,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
                 <button type="button" id="passToggle" data-field="password"><i class="fa-solid fa-eye fa-fw"></i></button>
             <div class="form-help">
                 <ul>
+                    <li>Senha de teste (apague isso!) &rarr; Qw3rtyui0P</li>
                     <li>Mínimo de 7 e máximo de 32 caracteres;</li>
                     <li>Pelo menos uma letra maiúscula de A até Z;</li>
                     <li>Pelo menos um número de 0 à 9.</li>
@@ -242,8 +243,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <h3>Barra Lateral</h3>
+    <p>Coloque algum conteúdo útil aqui como fizemos <a href="/ler/?id=1">nesta página</a>. Por exemplo:</p>
+    <ul>
+        <li>Links para a seção "Sobre"</li>
+        <li>Etc...</li>
+    </ul>
 
 </aside>
 

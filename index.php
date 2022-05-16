@@ -57,7 +57,7 @@ $artigos .= '</div>';
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Os reis do Olympus";
 
 /**
  * Inclui o cabeçalho da página.
@@ -67,6 +67,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 ?>
 
 <section>
+
+<!--<div class="container">
+<h2>Deuses</h2>&nbsp;
+</div>-->
 
     <?php
 

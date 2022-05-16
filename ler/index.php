@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Os reis do Olympus";
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
@@ -55,7 +55,7 @@ $artigo = $res->fetch_assoc();
 
 // Formata HTML para o navegador
 $html_article = <<<HTML
-
+<div id="backgroundArticle">
 <h2>{$artigo['art_title']}</h2>
 
 <div class="author-date">
@@ -63,6 +63,7 @@ $html_article = <<<HTML
 </div>
 
 <div>{$artigo['art_content']}</div>
+</div>
 
 HTML;
 

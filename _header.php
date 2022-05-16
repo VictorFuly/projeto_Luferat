@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/iconnew.svg" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Vitugo - <?php echo $title ?></title>
+    <title>Olympus - <?php echo $title ?></title>
 </head>
 
 <body>
@@ -22,13 +22,13 @@
 
             <a href="/" title="Página inicial"><i class="fa-solid fa-building-columns"></i></a>
 
-            <h1>Vitugo<small>Quem tem fome tem pressa.</small></h1>
+            <h1>Olympus<small>Os reis do Olympus</small></h1>
 
         </header>
 
         <nav>
 
-            <a href="/" title="Página inicial"><i class="fa-solid fa-house-chimney fa-fw"></i><span>Início</span></a>
+            <a href="/" title="Página inicial"><i class="fa-solid fa-bolt-lightning"></i><span>Início</span></a>
 
             <a href="/contatos/" title="Faça contato"><i class="fa-solid fa-comment-dots fa-fw"></i><span>Contatos</span></a>
 

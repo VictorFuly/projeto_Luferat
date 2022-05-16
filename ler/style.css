@@ -3,7 +3,11 @@
 @import url('/style.css');
 
 /* Folhas de estilo de ler */
-
+div#backgroundArticle{
+    background:rgb(255, 255, 255,.8);
+    padding: 10px;
+    border: 1px solid black;
+}
 .author-date {
     margin-top: 1rem;
     font-size: small;

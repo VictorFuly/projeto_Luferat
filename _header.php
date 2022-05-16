@@ -22,7 +22,7 @@
 
             <a href="/" title="Página inicial"><i class="fa-solid fa-building-columns"></i></a>
 
-            <h1>Vitugo<small>Quem tem fome tem pressa.</small></h1>
+            <h1>Olympusss<small>Deuses gregos.</small></h1>
 
         </header>
 

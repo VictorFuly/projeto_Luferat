@@ -1,1 +1,6 @@
 @import url(/style.css);
+div.fogo{
+    background-color:rgb(255, 254, 254);
+    padding: 10px;
+    border: 1px solid black;
+}

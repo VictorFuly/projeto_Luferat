@@ -248,11 +248,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 ?>
 
 <section>
-
-    <?php
+    <div class="fogo"> <?php
     // Exibe o conteúdo do artigo completo
     echo $html_article;
     ?>
+    </div>
+   
 
     <hr class="divider">
 

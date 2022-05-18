@@ -124,7 +124,7 @@ INSERT INTO articles (
     art_author
 ) VALUES
 (
-    'Pai do Olympusss',
+    'Zeus',
     'Deus dos céus',
     '/img/articles/zeus2.jpg',
     '<img src="/img/articles/zeus.jpg" alt="Imagem aleátória"><p>Zeus era uma das divindades que faziam parte da religiosidade dos gregos antigos, sendo considerado o deus mais poderoso de todos. Residia no Monte Olimpo, regendo o Universo e controlando os céus. Ele comandava os humanos e os outros deuses e era considerado pelos gregos como o deus do trovão, dos céus e do raio.</p>',

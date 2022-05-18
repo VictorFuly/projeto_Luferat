@@ -57,7 +57,7 @@ $artigos .= '</div>';
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Os Reis do Olympuss";
 
 /**
  * Inclui o cabeçalho da página.

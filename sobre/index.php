@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
  *     → https://www.w3schools.com/php/php_variables.asp
  *     → https://www.php.net/manual/pt_BR/language.variables.basics.php
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Sua privacidade é importante para nois";
 
 /**
  * Inclui o cabeçalho da página.
@@ -51,7 +51,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <aside>
 
     <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    
+    <p><a href="criadores.php">Criadores</a></p>
 
 </aside>
 

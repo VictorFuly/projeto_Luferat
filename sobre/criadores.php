@@ -42,7 +42,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <section>
 <h2>Criadores</h2>
     <div class="fogo">
-        <p> Esse site foi criado por Victor Hugo, Lucas Freitas e Lincoln Pereira, alunos do SENAC-Madureira, em conjunto com o Professor André Luferat para a conclusão do Projeto Integrador. </p>
+        <p> Esse site foi criado por Lucas Freitas, Victor hugo e Lincoln Pereira, alunos do SENAC-Madureira, em conjunto com o Professor André Luferat para a conclusão do Projeto Integrador. </p>
+        <div id="foto">
+            <figure>
+                <img src="/img/criador1.jpg" alt="foto">
+                <p>Lucas</p>    
+            </figure>
+            <figure>
+                <img src="/img/criador2.jpg" alt="foto">
+                <p>Victor</p>   
+            </figure>
+            <figure>
+                <img src="/img/criador3.jpg" alt="foto">
+                <p>Lincoln</p>   
+            </figure>
+        </div>
+        
     </div>
     
     
@@ -50,8 +65,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+   
 
 </aside>
 

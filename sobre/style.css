@@ -4,3 +4,15 @@ div.fogo{
     padding: 10px;
     border: 1px solid black;
 }
+div#foto{
+    display: flex;
+}
+div#foto figure img{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+
+}
+div#foto figure p{
+    text-align: center;
+}

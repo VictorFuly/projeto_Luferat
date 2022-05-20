@@ -206,7 +206,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <div class="aside-social-box">
 
 
-        <a href="https://github.com/VictorFuly">
+        <a href="https://github.com/VictorFuly" target="_blank">
             <i class="fa-brands fa-github fa-fw"></i>
             <span>GitHub</span>
         </a>
@@ -217,7 +217,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <div class="aside-social-box">
 
 
-        <a href="https://github.com/LucasFre1tas">
+        <a href="https://github.com/LucasFre1tas" target="_blank">
             <i class="fa-brands fa-github fa-fw"></i>
             <span>GitHub</span>
         </a>
@@ -228,7 +228,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <div class="aside-social-box">
 
 
-        <a href="https://github.com/Liinkiin998">
+        <a href="https://github.com/Liinkiin998" target="_blank">
             <i class="fa-brands fa-github fa-fw"></i>
             <span>GitHub</span>
         </a>
